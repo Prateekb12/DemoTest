@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+ <DemoTest>
+
+
+  -<RunSettings>
+
+    <AUT>https://www.applitrack.com/dex/</AUT>
+
+    <!-- Possible flag Chrome,Firefox, IE-->
+
+
+    <Browser>Firefox</Browser>
+
+    <!-- Possible flag Smoke, Regression, Unit -->
+
+
+    <TestType>SmokeTest</TestType>
+
+    <!-- Possible Flag Y, N -->
+
+
+    <IsLog>Y</IsLog>
+
+    <LogPath>D:\\DTAutoLogs\\</LogPath>
+
+    <BuildName>DemoBuild</BuildName>
+
+    <!-- Possible Flag Y, N -->
+
+
+    <IsReport>N</IsReport>
+
+    <UserName>TestTeam</UserName>
+
+    <!-- Possible flag Selenium, Specflow -->
+
+
+    <Technology>Selenium</Technology>
+
+  </RunSettings>
+
+</DemoTest>
